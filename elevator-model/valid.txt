@@ -1,0 +1,40 @@
+[
+   [s0, [s0, s1]],
+   [s1, [s0, s1, s2]],
+   [s2, [s3, s13]],
+   [s3, [s4]],
+   [s4, [s5]],
+   [s5, [s6]],
+   [s6, [s7]],
+   [s7, [s7, s8]],
+   [s8, [s7, s8, s9]],
+   [s9, [s10, s6]],
+   [s10, [s11]],
+   [s11, [s12]],
+   [s12, [s13]],
+   [s13, [s0]]
+].
+
+[
+   [s0, [floor1, open, still]],
+   [s1, [floor1, open, still, btn2]],
+   [s2, [floor1, closing, still, btn2]],
+   [s3, [floor1, closed, still, btn2]],
+   [s4, [closed, up, btn2]],
+   [s5, [floor2, closed, still]],
+   [s6, [floor2, opening, still]],
+   [s7, [floor2, open, still]],
+   [s8, [floor2, open, still, btn1]],
+   [s9, [floor2, closing, still, btn1]],
+   [s10, [floor2, closed, still, btn2]],
+   [s11, [closed, down, btn1]],
+   [s12, [floor1, closed, still]],
+   [s13, [floor1, opening, still]]
+].
+
+s0.
+
+% From the current state, there exists a path where eventually 
+% floor2, open and still are true. In other words, it is possible to
+% use the elevator to get to the second floor.
+ef(and(and(floor2, open), still)).

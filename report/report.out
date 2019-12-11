@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Method}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The Check Predicate}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Propositional Rules}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{A-Rules}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{E-Rules}{subsection.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Elevator Model}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Results}{}% 8
+\BOOKMARK [1][-]{section.4}{Appendix}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Input File for Testing ef\(and\(and\(floor2, open\), still\)\)}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Input File for Testing ef\(and\(neg\(still\), or\(open, or\(opening, closing\)\)\)\)}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Model Checker Implementation}{section.4}% 12
